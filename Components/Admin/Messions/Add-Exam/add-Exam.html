@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam System || Add Exam</title>
+    <link rel="stylesheet" href="../../../../CSS/master.css">
+</head>
+<body>
+    <form >
+        <div class="form-group">
+            <label for="exam-code">Exam Code</label>
+            <input type="text" name="exam-code" id="exam-code" placeholder="Exam Code" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="course-code">Course Code</label>
+            <input type="text" name="course-code" id="course-code" placeholder="Course Code" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="course-name">Course Name</label>
+            <input type="text" name="course-name" id="course-name" placeholder="Course Name" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="course-teacher">Course Teacher</label>
+            <select name="course-teacher" id="course-teacher" ngModel>
+                <option value="1">Teacher 1</option>
+                <option value="2">Teacher 2</option>
+                <option value="3">Teacher 3</option>
+                <option value="4">Teacher 4</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exam-name">Exam Name</label>
+            <input type="text" name="exam-name" id="exam-name" placeholder="Exam Name" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="exam-date">Exam Date</label>
+            <input type="date" name="exam-date" id="exam-date" placeholder="Exam Date" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="exam-time">Exam Time</label>
+            <input type="time" name="exam-time" id="exam-time" placeholder="Exam Time" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="exam-duration">Exam Duration</label>
+            <input type="number" name="exam-duration" id="exam-duration" placeholder="Exam Duration" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="exam-degree">Exam Degree</label>
+            <input type="number" name="exam-degree" id="exam-degree" placeholder="Exam Degree" ngModel>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Add Exam Details">
+        </div>
+        <div class="form-group">
+            <a href="Add-Questions/add-Questions.html">Add Questions</a>
+        </div>
+        <div class="form-group">
+            <a href="../messions.html">Back</a>
+        </div>
+    </form>
+</body>
+</html>
